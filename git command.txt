@@ -1,6 +1,6 @@
 ADD REMOTE
 -----------
-git remote add origin link
+git remote add origin <repository-link>
 
 CREATE A FOLDER AS GIT REPO
 -----------------------------
