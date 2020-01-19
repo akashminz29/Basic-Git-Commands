@@ -2,7 +2,7 @@ ADD REMOTE
 -----------
 git remote add origin link
 
-CREATE A FOLDER AS GIT REPO
+CREATE A FOLDER AS GIT REPO (LOCAL)
 -----------------------------
 git init
 git status
@@ -11,7 +11,7 @@ git commit -m "message"
 git push -u origin master
 git pull origin master
 
-REMOVE REMOTE
+REMOVE REMOTE (LOCAL)
 ---------------
 git remote rm remote_name
 
