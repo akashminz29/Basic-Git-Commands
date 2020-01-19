@@ -1,4 +1,4 @@
-# learngit
+learngit
 Set up a git repository and start pushing and pulling files
 -----------------------------------------------------------
 
