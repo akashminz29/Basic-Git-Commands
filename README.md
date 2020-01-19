@@ -8,7 +8,7 @@ Step 1: Create a Repository using the website
 Step 2: Add  Repository (ex Github repo)
 -----------------------------------------
 
- git remote add origin <repository-link>
+ git remote add origin repository-link
 
 Step 3: Create a local repo
 ----------------------------
