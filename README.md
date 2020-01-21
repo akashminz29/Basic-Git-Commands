@@ -1,39 +1,33 @@
 # learngit
-Set up a git repository and start pushing and pulling files
------------------------------------------------------------
 
-Step 1: Create a Repository using the website
----------------------------------------------
+Commonly Used Git Commands
+--------------------------
 
-Step 2: Add  Repository (ex Github repo)
------------------------------------------
+1. git remote add origin repository-link (for adding remote location)
 
- git remote add origin repository-link
+2. git init  (for initializing a local folder as git repo) <br />
 
-Step 3: Create a local repo
-----------------------------
+3. git status (for checking status) <br />
 
-git init  (for initializing a local folder as git repo) <br />
-git status (for checking status) <br />
-git add . (for adding files in to staging area) <br />
-git commit -m "message" (for commiting the  files) <br />
-git push -u origin master (for pushing files into remote repo) <br />
-git pull origin master (for pulling files from remote repo)
+4. git add . (for adding files in to staging area) <br />
 
-REMOVE REMOTE (LOCAL)
-----------------------
-git remote rm remote_name
+5. git commit -m "message" (for commiting the  files) <br />
 
-CREATE NEW BRANCH
--------------------
-git branch branch_name <br />
-git checkout branch_name
+6. git push -u origin master (for pushing files into remote repo) <br />
 
-DELETE BRANCH
---------------
-local:
-git branch -d test
+7. git pull origin master (for pulling files from remote repo) <br />
 
-remote:
-git push origin --delete test
+8. git remote -v (for checking remote locations)<br />
+
+9. git remote rm remote_name (for creating remote location)<br />
+
+10. git branch (for checking branchesh locally)<br />
+
+11. git branch branch_name (for creating new branch) <br />
+
+12. git checkout branch_name (changing branch) <br />
+
+13. git branch -d test (delete branch locally) <br />
+
+14. git push origin --delete test (delete branch remotely) <br />
 
