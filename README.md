@@ -1,30 +1,48 @@
 ## Basic git Commands
 
-1. git remote add origin repository-link (for adding remote location)
+### 1. Push files to your git repository
 
-2. git init  (for initializing a local folder as git repo) <br />
+```git init
+   git status
+   git add .
+   git commit -m "<write message>"
+   git remote add origin <your git https link>
+   git push -u origin master
+```
+### 2. Clone a repository
 
-3. git status (for checking status) <br />
+```git clone <git repo HTTPS link>
+```
+### 3. Pull changes to your local repository
 
-4. git add . (for adding files in to staging area) <br />
+```git pull origin master
+```
+### 4. Check all the remote repository
 
-5. git commit -m "message" (for commiting the  files) <br />
+```git remote -v
+```
+### 5. Remove a remote location
 
-6. git push -u origin master (for pushing files into remote repo) <br />
+```git remote rm <git repo HTTPS link>
+```
+### 6. Check branch
 
-7. git pull origin master (for pulling files from remote repo) <br />
+```git branch
+```
+### 7. Create branch
 
-8. git remote -v (for checking remote locations)<br />
+```git branch <branch name>
+```
+### 8. Checkout another branch
 
-9. git remote rm remote_name (for creating remote location)<br />
+```git checkout <branch name>
+```
 
-10. git branch (for checking branchesh locally)<br />
+### 9. Delete local branch
 
-11. git branch branch_name (for creating new branch) <br />
+```git branch -d <branch name>
+```
+### 10. Delete remote branch
 
-12. git checkout branch_name (changing branch) <br />
-
-13. git branch -d test (delete branch locally) <br />
-
-14. git push origin --delete test (delete branch remotely) <br />
-
+```git push origin --delete <branch name>
+```
