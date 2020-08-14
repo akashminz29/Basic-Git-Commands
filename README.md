@@ -1,7 +1,4 @@
-# learngit
-
-Commonly Used Git Commands
---------------------------
+## Basic git Commands
 
 1. git remote add origin repository-link (for adding remote location)
 
